@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Match the colours</title>
+</head>
+<body>
+
+    <!-- Title, subheading, start/reset buttons, timer and message 1 and 2 -->
+        <h1>Match the colours to win!</h1>
+        <h3>Select the start button</h3>
+        <div class="buttonContainer"><button id="startButton">START</button>
+            <div class = "timerContainer">
+        <p><span id="seconds">00</span>:<span id="tens">00</span></p><div class="buttonContainer"><button id="resetButton" onclick="window.location.reload()">RESET</button>
+        </div>
+        <p id="message1"></p>
+        <p id="message2"></p>
+        </div>
+    <!-- </div> -->
+
+    <!-- div containing the tiles -->
+    <div class="tiles"></div>
+  
+
+</body>
+</html>

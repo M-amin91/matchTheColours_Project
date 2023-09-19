@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+/*body*/
+body { 
+    background: black;
+    margin: 0;
+    text-align: center;
+}
+/*font styles*/
+h1 { font-family: 'Rajdhani', sans-serif; color: rgb(131, 175, 220); font-size: 80px;}
+
+h3{ font-family: 'Rajdhani', sans-serif; color: rgb(131, 175, 220); font-size: 40px;}
+
+p{ font-family: 'Rajdhani', sans-serif; color: rgb(131, 175, 220); font-size: 40px;}
+
+/*start button*/
+#startButton{
+
+    padding:10px 25px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    background-color:rgb(176, 53, 53);
+    cursor:pointer;
+    
+}
+
+/*hover effect on the start button*/
+#startButton:hover{
+
+    background-color: orange;
+}
+
+
+
+/* parent tiles container */
+.tiles{
+    margin: 48px auto; /* 48px top and bottom, auto left and right   */
+    width:max-content; /* center the tile container   */
+    display: grid;  /* display of grid   */
+    grid-template-columns: repeat(4,100px);  /* create 4 columns with 100px width   */
+    gap:14px; /*  create gap of 16px between tiles  */
+    
+    
+}  
+
+/* Each tile */
+.tile{
+   height:100px;
+    background: black;  
+    border: 5px solid  rgb(131, 175, 220);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*reset button*/
+#resetButton{
+   display: none;
+    padding:10px 25px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    background-color:rgba(76, 72, 218, 0.895);
+    cursor:pointer;
+    border-radius: 15px;
+    margin-left: 690px;
+
+}
+
+/*timer container*/
+.timerContainer{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
