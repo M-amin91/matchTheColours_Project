@@ -1,5 +1,3 @@
 # matchTheColours_Project
 
-This is a game I have created in Javascript and have used HTML and CSS to design the elements. The user first needs to press the start button, the game will begin and the timer will start.
-The user then needs to select different squares and try to match all the colours in order to complete the game. Once all the colours are guessed correctly, the timer will stop and the game will be completed. The
-finishing time it took to complete the game will be shown to the user. The user needs to remember the colours and try to match them as fast as possible.
+This is a game I developed using Javascript, with HTML and CSS for designing elements. To start, the user presses the start button, initiating the game and the timer. The goal is to select various squares and match their colors to complete the game. When all colors are correctly guessed, the timer stops, and the game concludes. The user sees the time taken to finish the game and is encouraged to remember the colors for a faster match in subsequent attempts.
